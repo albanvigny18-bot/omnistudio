@@ -1,0 +1,1290 @@
+Je vais t’aider à construire un **prompt de niveau professionnel pour créer une plateforme complète de conception de vidéos interactives assistée par l’intelligence artificielle**, capable de rivaliser avec Adobe Captivate, H5P, Articulate 360 et les autres solutions du marché.
+
+**Première précision :** je ne vois pas de document ni d’image joint à ton dernier message. Pour que je puisse en extraire le texte fidèlement, envoie-moi le fichier PDF, Word, PowerPoint ou les captures d’écran concernées. En attendant, je te prépare le prompt de conception complet.
+
+L’objectif n’est pas de créer un simple éditeur de vidéos, mais un véritable outil professionnel permettant de concevoir, produire, publier, diffuser et analyser des expériences vidéo interactives.
+
+# 1. Vision de la plateforme à développer
+
+Je recommande de concevoir une plateforme SaaS avec un éditeur visuel, un moteur d’interactivité, des fonctionnalités d’IA et un système complet de gestion des formations.
+
+Elle devra réunir les fonctionnalités essentielles de plusieurs catégories d’outils :
+
+| Solution de référence    | Fonctionnalités à reprendre comme objectifs de conception                                      |
+| ------------------------ | ---------------------------------------------------------------------------------------------- |
+| Adobe Captivate          | Création de formations, scénarios, interactions, quiz, simulations et publication pédagogique. |
+| H5P                      | Vidéos interactives, questions intégrées, présentations, exercices et contenus réutilisables.  |
+| Articulate Storyline 360 | Scénarios conditionnels, déclencheurs, variables, embranchements et interactions avancées.     |
+| Articulate Rise 360      | Création rapide de modules pédagogiques et conception responsive.                              |
+| Camtasia                 | Montage vidéo, annotations, voix off, sous-titres et éléments visuels.                         |
+
+Il faut toutefois distinguer les objectifs fonctionnels des implémentations propriétaires : la plateforme devra proposer ses propres composants, son propre moteur d’interactivité et une architecture indépendante.
+
+# 2. Prompt complet à transmettre à un agent IA de développement
+
+Le prompt ci-dessous est conçu pour un agent de développement capable de concevoir une application, de créer son code, de gérer sa base de données, de développer son interface et de tester le produit.
+
+Tu peux le copier et le transmettre à ton agent.
+
+# PROJET : DÉVELOPPEMENT D'UNE PLATEFORME PROFESSIONNELLE DE VIDÉOS INTERACTIVES ASSISTÉE PAR IA
+
+## 1. RÔLE ET MISSION DE L'AGENT
+
+Tu es une équipe complète de développement logiciel réunissant les compétences suivantes :
+
+* Architecte logiciel senior.
+* Ingénieur full-stack.
+* Expert en intelligence artificielle générative.
+* Expert en traitement vidéo et audio.
+* Expert en conception pédagogique et ingénierie de formation.
+* Expert UX/UI spécialisé dans les outils de création professionnels.
+* Expert en développement de plateformes SaaS.
+* Expert en cybersécurité, protection des données et gestion des identités.
+* Expert en accessibilité numérique.
+* Expert en tests logiciels, performance et déploiement cloud.
+
+Ta mission est de concevoir et de développer une plateforme professionnelle permettant de créer des vidéos interactives, des formations multimédias, des simulations, des évaluations et des expériences pédagogiques personnalisées.
+
+Le produit doit viser un niveau fonctionnel et professionnel comparable ou supérieur à celui des solutions existantes, notamment Adobe Captivate, H5P, Articulate Storyline, Articulate Rise et Camtasia.
+
+Ne te contente pas de produire une maquette visuelle ou une démonstration statique.
+
+Tu dois construire une véritable application fonctionnelle, avec des données persistantes, un éditeur interactif, un moteur d'exécution, un système de publication et une architecture évolutive.
+
+Tu dois travailler progressivement, en validant chaque composant avant de passer au suivant.
+
+Ne prétends jamais qu'une fonctionnalité est terminée si elle n'a pas été implémentée et testée.
+
+## 2. VISION DU PRODUIT
+
+Créer une plateforme SaaS permettant à un utilisateur de transformer :
+
+* Une vidéo existante.
+* Un texte.
+* Un document PDF.
+* Un document Word.
+* Une présentation PowerPoint.
+* Un scénario pédagogique.
+* Un enregistrement audio.
+* Une collection d'images.
+* Une documentation technique.
+* Un cours existant.
+* Une simple idée exprimée en langage naturel.
+
+En une expérience interactive complète, structurée, visuellement professionnelle et prête à être diffusée.
+
+L'intelligence artificielle doit assister l'utilisateur dans la conception, la génération, l'amélioration, l'organisation et l'évaluation du contenu.
+
+L'utilisateur doit conserver la maîtrise du résultat final et pouvoir modifier manuellement tous les éléments générés.
+
+La plateforme doit prendre en charge aussi bien les utilisateurs débutants que les concepteurs pédagogiques professionnels.
+
+## 3. ARCHITECTURE GÉNÉRALE DE L'APPLICATION
+
+Construis une application organisée autour des modules suivants :
+
+1. Tableau de bord.
+2. Gestion des projets.
+3. Bibliothèque multimédia.
+4. Éditeur de scénarios.
+5. Éditeur de vidéos interactives.
+6. Moteur de lecture et d'interactivité.
+7. Assistant IA.
+8. Générateur de quiz et d'évaluations.
+9. Gestion des animations et des éléments visuels.
+10. Gestion des pistes audio et vidéo.
+11. Sous-titrage et transcription.
+12. Gestion des utilisateurs et des équipes.
+13. Bibliothèque de modèles.
+14. Système de publication.
+15. Analyses et statistiques.
+16. Gestion des versions.
+17. Centre de collaboration.
+18. Paramètres, sécurité et administration.
+
+Tous ces modules doivent communiquer à travers des interfaces clairement définies.
+
+Évite de construire une application monolithique difficile à faire évoluer.
+
+Sépare les responsabilités métier, les composants d'interface, le moteur interactif, le traitement multimédia et les services d'intelligence artificielle.
+
+## 4. TABLEAU DE BORD
+
+Créer un tableau de bord moderne présentant :
+
+* Les projets récents.
+* Les projets en cours.
+* Les projets publiés.
+* Les projets partagés.
+* Les modèles disponibles.
+* Les ressources multimédias.
+* Les statistiques de consultation.
+* Les notifications.
+* Les activités récentes.
+* Les travaux de génération IA.
+* L'état des traitements vidéo.
+* Les tâches en attente.
+* Les espaces de travail.
+
+Prévoir des actions rapides :
+
+* Créer une vidéo interactive.
+* Importer une vidéo.
+* Générer un projet avec l'IA.
+* Importer un document.
+* Créer un quiz.
+* Utiliser un modèle.
+* Dupliquer un projet.
+* Importer un projet existant.
+* Ouvrir un projet récent.
+
+Ajouter une recherche globale et des filtres.
+
+## 5. ÉDITEUR VISUEL PROFESSIONNEL
+
+Développer un éditeur de type studio de création.
+
+L'interface doit comporter :
+
+A. Une zone centrale de prévisualisation.
+
+B. Une timeline permettant de positionner les éléments sur la durée.
+
+C. Un panneau de propriétés contextuelles.
+
+D. Une bibliothèque de composants interactifs.
+
+E. Une bibliothèque multimédia.
+
+F. Une barre d'outils.
+
+G. Un panneau de navigation entre les scènes.
+
+H. Un système de calques.
+
+I. Un panneau de gestion des événements et des conditions.
+
+J. Un panneau de prévisualisation et de publication.
+
+L'interface doit permettre :
+
+* Le glisser-déposer.
+* Le déplacement précis des éléments.
+* Le redimensionnement.
+* L'alignement.
+* Le regroupement.
+* Le verrouillage des éléments.
+* La gestion des calques.
+* Le copier-coller.
+* La duplication.
+* L'annulation et le rétablissement.
+* Le zoom de la timeline.
+* La sélection multiple.
+* Les raccourcis clavier.
+* La modification des propriétés.
+* La prévisualisation instantanée.
+* La sauvegarde automatique.
+* La restauration d'une version précédente.
+
+Prévoir un historique fiable des opérations.
+
+Les modifications doivent être persistantes et récupérables après une actualisation ou une reconnexion.
+
+L'éditeur doit être rapide, accessible et adapté aux projets complexes.
+
+## 6. IMPORTATION ET GESTION DES MÉDIAS
+
+Prendre en charge les formats multimédias courants.
+
+Pour les vidéos, étudier notamment MP4, WebM et MOV lorsque le traitement côté serveur le permet.
+
+Pour l'audio, prendre en charge les formats courants tels que MP3, WAV, AAC et M4A.
+
+Pour les images, prendre en charge PNG, JPEG, WebP et SVG avec validation des fichiers.
+
+Permettre l'importation de :
+
+* Vidéos.
+* Images.
+* Fichiers audio.
+* Logos.
+* Illustrations.
+* Icônes.
+* Documents.
+* Présentations.
+* Sous-titres.
+* Polices autorisées.
+* Éléments graphiques.
+
+Prévoir une bibliothèque multimédia réutilisable entre les projets.
+
+Chaque ressource doit posséder des métadonnées, un identifiant unique, une taille, un type, une date d'importation et des informations sur ses droits d'utilisation lorsque celles-ci sont disponibles.
+
+Ajouter :
+
+* Les miniatures automatiques.
+* La prévisualisation des médias.
+* La recherche.
+* Le filtrage.
+* Le classement par dossiers.
+* Les tags.
+* Le remplacement d'un média.
+* La détection des ressources inutilisées.
+* La vérification des formats.
+* La gestion des erreurs d'importation.
+* La reprise des transferts interrompus pour les fichiers volumineux.
+
+Utiliser un stockage adapté aux fichiers volumineux et séparer les fichiers originaux des fichiers transformés.
+
+## 7. ÉDITEUR DE VIDÉOS INTERACTIVES
+
+C'est le cœur du produit.
+
+Permettre à l'utilisateur de placer des interactions directement au-dessus d'une vidéo, à des moments précis.
+
+Chaque interaction doit posséder :
+
+* Un identifiant unique.
+* Une scène de rattachement.
+* Un temps de début.
+* Un temps de fin ou une règle de disparition.
+* Une position.
+* Une taille.
+* Un style.
+* Un état d'affichage.
+* Des conditions de visibilité.
+* Des événements.
+* Des règles de déclenchement.
+* Des paramètres d'accessibilité.
+
+Prendre en charge les interactions suivantes :
+
+### 7.1 Questions
+
+* Choix unique.
+* Choix multiples.
+* Vrai ou faux.
+* Réponse courte.
+* Réponse textuelle libre.
+* Association.
+* Classement.
+* Remise en ordre.
+* Remplissage de blancs.
+* Identification sur une image.
+* Questions à étapes.
+* Questions avec médias.
+* Questions avec rétroaction personnalisée.
+
+Permettre de définir les bonnes réponses, les points, les tentatives autorisées et les messages de rétroaction.
+
+### 7.2 Boutons et zones cliquables
+
+Permettre la création de boutons, d'icônes, de zones invisibles et de zones cliquables.
+
+Chaque élément doit pouvoir :
+
+* Afficher une information.
+* Déclencher une animation.
+* Ouvrir une fenêtre.
+* Afficher une question.
+* Déclencher une vidéo.
+* Changer de scène.
+* Modifier une variable.
+* Afficher ou masquer un élément.
+* Déclencher un embranchement.
+* Ouvrir une ressource autorisée.
+* Enregistrer une réponse.
+* Déclencher une action conditionnelle.
+
+### 7.3 Fenêtres et panneaux
+
+Créer des fenêtres modales, des panneaux latéraux, des infobulles, des cartes d'information et des fenêtres contextuelles.
+
+Permettre de personnaliser :
+
+* La taille.
+* La position.
+* L'arrière-plan.
+* Les bordures.
+* Les animations.
+* Le contenu.
+* Le comportement de fermeture.
+* Le comportement sur mobile.
+
+### 7.4 Interactions temporelles
+
+Permettre de déclencher une interaction :
+
+* À un instant précis.
+* Après un délai.
+* À la fin d'une séquence.
+* Lorsque l'utilisateur clique.
+* Lorsque l'utilisateur répond.
+* Lorsque la lecture reprend.
+* Lorsque la vidéo atteint un point déterminé.
+* Lorsque plusieurs conditions sont réunies.
+
+Les interactions doivent rester synchronisées avec la vidéo lorsque l'utilisateur met en pause, reprend, avance ou recule dans la lecture.
+
+Le comportement doit être prévisible et reproductible.
+
+### 7.5 Embranchements
+
+Permettre à l'utilisateur de créer des parcours différents selon les réponses, les décisions ou les variables.
+
+Exemple :
+
+Si l'apprenant choisit une bonne réponse, poursuivre vers la scène suivante.
+
+Si la réponse est incorrecte, afficher une explication puis proposer une nouvelle tentative.
+
+Si le nombre de tentatives autorisées est dépassé, diriger l'apprenant vers une séquence de révision.
+
+Permettre la création de scénarios non linéaires.
+
+Prévoir une représentation graphique des chemins possibles et détecter les scènes inaccessibles ou les boucles accidentelles.
+
+## 8. MOTEUR DE SCÉNARISATION ET LOGIQUE CONDITIONNELLE
+
+Créer un moteur d'interactivité indépendant de l'interface de création.
+
+Le moteur doit gérer :
+
+* Les événements.
+* Les conditions.
+* Les actions.
+* Les variables.
+* Les états des composants.
+* Les règles de navigation.
+* Les résultats des évaluations.
+* Les tentatives.
+* Les scores.
+* La progression.
+* Les conditions de déverrouillage.
+
+Prévoir un système de variables globales, locales et propres à l'apprenant lorsque cela est pertinent.
+
+Types de variables :
+
+* Texte.
+* Nombre.
+* Booléen.
+* Liste.
+* Valeur de progression.
+* Score.
+* État d'un composant.
+
+Exemples de règles :
+
+SI score >= 80 ALORS afficher la scène de validation.
+
+SI réponse_correcte = vrai ALORS ajouter 10 points.
+
+SI module_1_termine = vrai ALORS déverrouiller le module 2.
+
+SI nombre_tentatives >= limite ALORS afficher la correction.
+
+Proposer deux modes de conception :
+
+1. Un éditeur visuel accessible aux débutants.
+2. Un éditeur avancé destiné aux utilisateurs expérimentés.
+
+Ne jamais exécuter du code arbitraire provenant d'un projet importé.
+
+Utiliser un moteur de règles contrôlé, avec validation des actions et limitation des opérations autorisées.
+
+## 9. ASSISTANT IA INTÉGRÉ
+
+L'intelligence artificielle doit être accessible dans l'ensemble de la plateforme.
+
+Créer un assistant capable de comprendre des instructions en langage naturel.
+
+Exemples :
+
+« Transforme cette vidéo en formation interactive de 10 minutes. »
+
+« Ajoute cinq questions de compréhension. »
+
+« Crée un scénario avec trois décisions possibles. »
+
+« Ajoute des sous-titres en français. »
+
+« Propose une version plus professionnelle de cette scène. »
+
+« Crée une évaluation finale avec un seuil de réussite de 80 %. »
+
+« Génère une voix off à partir de ce texte. »
+
+« Rends les interactions plus accessibles. »
+
+L'assistant doit comprendre le contexte du projet et pouvoir proposer des modifications ciblées.
+
+Avant d'appliquer une modification importante, présenter un aperçu et demander une validation.
+
+Permettre d'annuler les modifications générées.
+
+### 9.1 Génération de projets
+
+À partir d'une simple instruction, l'IA doit pouvoir proposer :
+
+* Un objectif pédagogique.
+* Un plan de formation.
+* Un découpage en scènes.
+* Un script.
+* Une narration.
+* Des interactions.
+* Des quiz.
+* Des rétroactions.
+* Des suggestions de médias.
+* Des règles de navigation.
+* Un écran de conclusion.
+* Une évaluation finale.
+
+Le résultat doit être créé sous forme d'objets structurés et modifiables dans l'éditeur.
+
+Ne pas se limiter à générer une description textuelle du projet.
+
+### 9.2 Génération à partir de documents
+
+Permettre d'importer un document ou une présentation et d'en extraire le contenu exploitable.
+
+L'IA doit pouvoir :
+
+* Identifier les titres.
+* Extraire les notions importantes.
+* Organiser les chapitres.
+* Proposer des scènes.
+* Générer des questions.
+* Identifier les concepts difficiles.
+* Produire des résumés.
+* Générer des fiches de révision.
+* Créer des scénarios pratiques.
+* Relier les questions aux sections sources.
+
+Conserver les références aux passages sources lorsque cela est possible.
+
+Signaler les informations incertaines et permettre à l'utilisateur de vérifier le contenu.
+
+Ne jamais présenter une information générée comme une citation exacte si elle ne provient pas réellement de la source.
+
+### 9.3 Génération multimédia
+
+Prévoir une architecture permettant d'intégrer différents fournisseurs de services pour :
+
+* La génération d'images.
+* La génération de vidéos.
+* La synthèse vocale.
+* La transcription.
+* La traduction.
+* Le doublage.
+* La suppression du bruit.
+* La création de sous-titres.
+* La génération de musique lorsque les droits le permettent.
+
+Utiliser des adaptateurs de fournisseurs afin de pouvoir changer de service sans reconstruire l'application.
+
+Afficher le coût estimé, l'état du traitement et les limites du fournisseur lorsqu'ils sont disponibles.
+
+Ne jamais simuler une génération qui n'a pas réellement été effectuée.
+
+## 10. MONTAGE AUDIO ET VIDÉO
+
+Créer une timeline multimédia permettant de gérer plusieurs pistes.
+
+Prévoir :
+
+* Une ou plusieurs pistes vidéo.
+* Des pistes audio.
+* Des voix off.
+* Des sous-titres.
+* Des images.
+* Des titres.
+* Des animations.
+* Des transitions.
+* Des annotations.
+* Des éléments interactifs.
+
+Permettre :
+
+* Le découpage.
+* Le déplacement des clips.
+* Le réglage du volume.
+* Le réglage de l'opacité lorsque pertinent.
+* Le fondu audio.
+* Le recadrage.
+* Le positionnement.
+* Le changement de vitesse.
+* Le remplacement d'une séquence.
+* La synchronisation audio-vidéo.
+* La gestion des points de repère.
+
+Pour les opérations de montage complexes, utiliser des outils multimédias éprouvés.
+
+Évaluer FFmpeg pour le traitement vidéo côté serveur et les technologies Web adaptées pour la prévisualisation.
+
+Séparer le montage visuel de la logique interactive afin que les modifications de l'un ne détruisent pas l'autre.
+
+Les interactions doivent être recalculées correctement lorsque la durée ou la position des clips change.
+
+## 11. ANIMATIONS ET EFFETS VISUELS
+
+Créer un système d'animation permettant d'animer les éléments de l'interface.
+
+Prévoir :
+
+* Apparition.
+* Disparition.
+* Fondu.
+* Déplacement.
+* Agrandissement.
+* Réduction.
+* Rotation.
+* Mise en évidence.
+* Animation de texte.
+* Animation de boutons.
+* Transitions entre scènes.
+
+Permettre de définir des durées, des délais, des courbes d'accélération et des événements de début ou de fin.
+
+Prévoir des animations prédéfinies et la possibilité de créer des séquences personnalisées.
+
+Les animations doivent rester fluides sur les appareils compatibles et respecter les préférences de réduction des animations.
+
+## 12. SOUS-TITRES, TRANSCRIPTION ET ACCESSIBILITÉ
+
+Intégrer un système complet de gestion des sous-titres.
+
+Fonctionnalités :
+
+* Transcription automatique.
+* Correction manuelle.
+* Synchronisation temporelle.
+* Importation de fichiers de sous-titres.
+* Exportation des sous-titres.
+* Traduction.
+* Identification des intervenants lorsque le service le permet.
+* Gestion des langues.
+* Personnalisation de l'affichage.
+
+Étudier la prise en charge de WebVTT et SRT.
+
+Prévoir une conception conforme aux bonnes pratiques d'accessibilité et viser les exigences pertinentes des WCAG 2.2 niveau AA.
+
+Permettre :
+
+* La navigation au clavier.
+* La compatibilité avec les lecteurs d'écran.
+* Des contrastes suffisants.
+* Des textes alternatifs.
+* Des commandes accessibles.
+* Des sous-titres synchronisés.
+* Une transcription lorsque nécessaire.
+* Une gestion accessible des erreurs.
+* Une solution de remplacement lorsque certaines interactions nécessitent un geste précis.
+
+Les questions, boutons, fenêtres et embranchements doivent être utilisables sans souris.
+
+## 13. QUIZ, ÉVALUATIONS ET CERTIFICATION
+
+Créer un module d'évaluation complet.
+
+Permettre :
+
+* La création manuelle de quiz.
+* La génération par IA.
+* Les banques de questions.
+* Les catégories.
+* Les niveaux de difficulté.
+* Les évaluations formatives.
+* Les évaluations sommatives.
+* Les questionnaires aléatoires.
+* Les limites de temps.
+* Les tentatives multiples.
+* Les règles de réussite.
+* Les rétroactions immédiates.
+* Les corrections différées.
+* Les scores pondérés.
+* Les résultats par compétence.
+* Les rapports d'évaluation.
+
+Permettre de définir des conditions de réussite et des règles de progression.
+
+Prendre en charge la génération de certificats lorsque les conditions définies sont remplies.
+
+Les certificats doivent être vérifiables et associés à un identifiant unique.
+
+Prévoir un historique des tentatives et une protection contre les modifications non autorisées des résultats.
+
+## 14. MODÈLES ET BIBLIOTHÈQUE DE COMPOSANTS
+
+Créer une bibliothèque de modèles réutilisables.
+
+Catégories :
+
+* Formation professionnelle.
+* Sensibilisation à la cybersécurité.
+* Protection des renseignements personnels.
+* Conformité réglementaire.
+* Santé et sécurité.
+* Présentation d'entreprise.
+* Formation technique.
+* Tutoriel logiciel.
+* Formation commerciale.
+* Formation d'intégration.
+* Évaluation.
+* Scénario à embranchements.
+
+Chaque modèle doit être personnalisable.
+
+Permettre de créer des modèles privés, partagés ou publiés dans une bibliothèque commune selon les permissions.
+
+Prévoir des composants réutilisables, des thèmes, des palettes de couleurs, des styles de texte et des bibliothèques de marque.
+
+## 15. PUBLICATION ET EXPORTATION
+
+La plateforme doit permettre plusieurs modes de publication.
+
+### Publication Web
+
+Générer un lecteur interactif accessible depuis un navigateur.
+
+Prévoir :
+
+* Une URL de partage.
+* Une page de présentation.
+* Des options d'accès.
+* Une protection adaptée aux contenus privés.
+* La gestion des versions publiées.
+* La mise à jour des projets.
+* La compatibilité avec les navigateurs modernes.
+
+### Exportation autonome
+
+Permettre de générer un paquet de contenu exécutable localement dans un navigateur lorsque les fonctionnalités utilisées et les contraintes techniques le permettent.
+
+Identifier clairement les fonctionnalités nécessitant un service distant.
+
+### Standards pédagogiques
+
+Étudier et implémenter, selon les besoins, les formats :
+
+* SCORM 1.2.
+* SCORM 2004.
+* xAPI.
+* cmi5.
+* H5P.
+* LTI 1.3 pour les intégrations LMS appropriées.
+
+Pour chaque format, respecter ses spécifications et valider les paquets générés.
+
+Ne pas annoncer une compatibilité complète si seuls certains scénarios ont été testés.
+
+Prévoir la documentation des limites et les tests d'interopérabilité avec les plateformes cibles.
+
+### Formats vidéo
+
+Permettre d'exporter une version vidéo non interactive lorsque cela est pertinent.
+
+Préciser que les interactions, variables, scores et embranchements ne peuvent pas être conservés intégralement dans un fichier vidéo traditionnel.
+
+Proposer une version vidéo classique et une version interactive distinctes.
+
+## 16. ANALYSES ET SUIVI DES APPRENANTS
+
+Créer un système de suivi des activités.
+
+Mesurer, selon les autorisations et les paramètres de confidentialité :
+
+* Les démarrages.
+* Les consultations.
+* La progression.
+* Le temps passé.
+* Les scènes consultées.
+* Les réponses.
+* Les scores.
+* Les tentatives.
+* Les abandons.
+* Les réussites.
+* Les interactions utilisées.
+* Les erreurs techniques.
+
+Permettre d'obtenir des statistiques globales et des analyses détaillées.
+
+Créer des tableaux de bord et des rapports exportables.
+
+Ne pas confondre une vidéo ouverte avec une vidéo réellement visionnée.
+
+Définir précisément les événements mesurés et documenter les limites des indicateurs.
+
+Permettre l'exportation des résultats dans des formats adaptés, notamment CSV.
+
+Mettre en place une politique de conservation des données et des mécanismes de suppression appropriés.
+
+## 17. COLLABORATION ET GESTION DES ÉQUIPES
+
+Permettre de travailler à plusieurs sur des projets.
+
+Prévoir :
+
+* Les espaces de travail.
+* Les membres.
+* Les rôles.
+* Les permissions.
+* Les commentaires.
+* Les validations.
+* Les demandes de révision.
+* L'historique des modifications.
+* Les versions.
+* La duplication des projets.
+* Le partage contrôlé.
+* Les notifications.
+
+Définir des rôles tels que :
+
+* Administrateur.
+* Propriétaire.
+* Concepteur.
+* Éditeur.
+* Réviseur.
+* Lecteur.
+
+Les droits doivent être appliqués côté serveur et non simplement masqués dans l'interface.
+
+Pour la collaboration en temps réel, étudier une architecture adaptée à la synchronisation des modifications et à la résolution des conflits.
+
+## 18. SÉCURITÉ ET PROTECTION DES DONNÉES
+
+La plateforme doit appliquer des principes de sécurité dès la conception.
+
+Prévoir :
+
+* Une authentification sécurisée.
+* La gestion des sessions.
+* Le contrôle d'accès.
+* L'isolation des espaces de travail.
+* La validation des entrées.
+* La protection contre les attaques Web courantes.
+* Le chiffrement des communications.
+* Le chiffrement des données sensibles stockées.
+* La gestion sécurisée des secrets.
+* La journalisation des événements pertinents.
+* La limitation des tentatives abusives.
+* Les sauvegardes.
+* La restauration après incident.
+* La surveillance des erreurs.
+* La gestion des dépendances vulnérables.
+* La suppression contrôlée des données.
+* Une politique de conservation.
+
+Pour les organisations québécoises, prévoir une conception compatible avec les obligations applicables en matière de protection des renseignements personnels, notamment la Loi sur la protection des renseignements personnels dans le secteur privé et les règles applicables aux organismes publics selon leur contexte.
+
+Prévoir les mécanismes nécessaires aux évaluations de confidentialité et à la gestion des incidents.
+
+Ne jamais transmettre des documents confidentiels à un fournisseur d'IA sans autorisation et sans tenir compte des conditions de traitement des données.
+
+Les données des clients ne doivent pas être utilisées pour entraîner un modèle externe sans base légale, information appropriée et autorisation lorsque requise.
+
+## 19. ARCHITECTURE TECHNIQUE À ÉVALUER
+
+Propose une architecture moderne, maintenable et adaptée au produit.
+
+Technologies candidates :
+
+Frontend :
+
+* React.
+* TypeScript.
+* Next.js ou une architecture React adaptée à l'application.
+* Un système de composants réutilisables.
+* Une bibliothèque de gestion de l'état.
+* Un moteur de timeline adapté aux besoins multimédias.
+
+Backend :
+
+* Node.js avec NestJS ou une solution équivalente.
+* API REST documentée.
+* WebSockets pour les fonctions temps réel.
+* Services asynchrones pour les tâches lourdes.
+
+Base de données :
+
+* PostgreSQL pour les données relationnelles.
+* Redis lorsque nécessaire pour les files de tâches, le cache ou la coordination.
+
+Stockage :
+
+* Stockage objet compatible S3.
+* CDN pour la diffusion.
+* Stockage séparé des originaux et des fichiers transformés.
+
+Traitement multimédia :
+
+* FFmpeg pour les opérations vidéo et audio adaptées.
+* Des workers dédiés aux tâches longues.
+* Des files de traitement.
+* Des mécanismes de reprise après erreur.
+
+Intelligence artificielle :
+
+* Une couche d'abstraction pour les fournisseurs de modèles.
+* Des adaptateurs distincts pour les modèles de langage, la transcription et la génération multimédia.
+* Un système de suivi des coûts et des erreurs.
+
+Infrastructure :
+
+* Conteneurs Docker.
+* Environnements de développement, de test et de production.
+* Intégration et déploiement continus.
+* Surveillance des performances.
+* Sauvegardes automatisées.
+
+Ces technologies sont des candidates, pas des contraintes absolues.
+
+Avant de les sélectionner définitivement, compare leurs coûts, leurs limites, leur maturité et leur adéquation au produit.
+
+Privilégie une architecture modulaire. N'introduis pas de microservices indépendants partout si un monolithe modulaire est plus approprié au démarrage.
+
+## 20. MODÈLE DE DONNÉES
+
+Concevoir un modèle de données cohérent comprenant notamment :
+
+* Utilisateurs.
+* Organisations.
+* Espaces de travail.
+* Membres.
+* Rôles.
+* Projets.
+* Versions de projets.
+* Scènes.
+* Médias.
+* Pistes.
+* Éléments visuels.
+* Interactions.
+* Questions.
+* Réponses.
+* Variables.
+* Événements.
+* Actions.
+* Conditions.
+* Parcours.
+* Modèles.
+* Publications.
+* Sessions d'apprentissage.
+* Résultats.
+* Événements analytiques.
+* Commentaires.
+* Tâches de traitement.
+* Journaux d'audit.
+
+Définir les relations, les contraintes d'intégrité et les index nécessaires.
+
+Prévoir une structure versionnée pour les projets afin de permettre leur évolution sans perdre la compatibilité avec les anciens contenus.
+
+Éviter que les données d'un client puissent être consultées par un autre client.
+
+## 21. FORMAT INTERNE DES PROJETS
+
+Créer un format de projet versionné, structuré et indépendant du fournisseur d'IA.
+
+Il doit représenter :
+
+* Les scènes.
+* Les ressources.
+* Les pistes.
+* Les interactions.
+* Les propriétés visuelles.
+* Les événements.
+* Les conditions.
+* Les variables.
+* Les règles de navigation.
+* Les paramètres de publication.
+* Les informations d'accessibilité.
+
+Utiliser un schéma validable, par exemple avec JSON Schema.
+
+Chaque projet doit pouvoir être sauvegardé, rechargé, dupliqué et migré vers une version plus récente du format.
+
+Séparer les données descriptives du projet des fichiers multimédias.
+
+Définir des mécanismes de validation afin qu'un projet mal formé ne puisse pas provoquer une exécution incohérente.
+
+## 22. QUALITÉ DE L'INTERFACE
+
+L'interface doit donner l'impression d'un véritable logiciel professionnel.
+
+Exigences :
+
+* Design moderne.
+* Navigation cohérente.
+* Hiérarchie visuelle claire.
+* Interface responsive.
+* Composants uniformes.
+* Retours visuels immédiats.
+* États de chargement.
+* Gestion des erreurs.
+* Notifications.
+* Confirmations pour les actions destructrices.
+* Sauvegarde automatique avec état visible.
+* Aide contextuelle.
+* Documentation intégrée.
+* Raccourcis clavier.
+* Mode clair et mode sombre.
+
+Éviter les écrans vides, les boutons décoratifs, les menus sans fonction et les données fictives présentées comme réelles.
+
+Chaque bouton visible doit avoir une fonction définie.
+
+Lorsqu'une fonctionnalité n'est pas encore disponible, afficher clairement son statut au lieu de simuler son fonctionnement.
+
+## 23. TESTS ET VALIDATION
+
+Mettre en place une stratégie de tests complète.
+
+### Tests unitaires
+
+Tester les fonctions métier, les règles conditionnelles, les variables, les calculs de score et les transformations des projets.
+
+### Tests d'intégration
+
+Vérifier la communication entre l'interface, le backend, la base de données, le stockage et les services multimédias.
+
+### Tests de bout en bout
+
+Tester les parcours réels :
+
+1. Création d'un projet.
+2. Importation d'une vidéo.
+3. Ajout d'une interaction.
+4. Création d'un quiz.
+5. Configuration d'une condition.
+6. Prévisualisation.
+7. Publication.
+8. Consultation par un apprenant.
+9. Enregistrement des résultats.
+10. Consultation des statistiques.
+
+### Tests multimédias
+
+Vérifier :
+
+* La synchronisation.
+* Les points de repère.
+* La reprise de lecture.
+* Les interactions temporelles.
+* Le comportement après un retour en arrière.
+* Les changements de scène.
+* La lecture sur mobile.
+* La qualité de l'exportation.
+
+### Tests de sécurité
+
+Vérifier les permissions, l'isolation des clients, les accès non autorisés, la validation des fichiers et la sécurité des interfaces.
+
+### Tests de performance
+
+Mesurer la réactivité de l'éditeur, le temps de chargement, la lecture des médias et le comportement de projets volumineux.
+
+Créer des tests de non-régression pour les fonctions essentielles.
+
+## 24. MÉTHODE DE DÉVELOPPEMENT
+
+Travaille par étapes.
+
+### PHASE 1 — ANALYSE
+
+Étudier les besoins.
+
+Identifier les fonctionnalités communes et les différences importantes entre les outils de référence.
+
+Établir une matrice des fonctionnalités.
+
+Distinguer les fonctionnalités indispensables, avancées et expérimentales.
+
+Identifier les risques techniques, les dépendances et les coûts.
+
+Produire l'architecture et le modèle de données.
+
+### PHASE 2 — SOCLE TECHNIQUE
+
+Créer :
+
+* Le projet logiciel.
+* La structure du code.
+* L'authentification.
+* La base de données.
+* Le stockage.
+* Les API.
+* Les tests automatisés.
+* Les environnements de développement.
+
+### PHASE 3 — ÉDITEUR FONCTIONNEL
+
+Développer le tableau de bord, la gestion des projets, l'importation des médias, l'éditeur visuel et la timeline.
+
+### PHASE 4 — MOTEUR INTERACTIF
+
+Développer les scènes, les points de repère, les questions, les variables, les conditions et les embranchements.
+
+### PHASE 5 — INTELLIGENCE ARTIFICIELLE
+
+Ajouter la génération de scripts, de scènes, de questions, de sous-titres et de parcours pédagogiques.
+
+### PHASE 6 — PUBLICATION
+
+Développer le lecteur interactif, les liens de partage, les exports et les intégrations pédagogiques retenues.
+
+### PHASE 7 — ANALYSES
+
+Développer les statistiques, les résultats, les rapports et le suivi des apprenants.
+
+### PHASE 8 — COLLABORATION ET SÉCURITÉ AVANCÉE
+
+Ajouter la collaboration, les permissions détaillées, les journaux d'audit et les mécanismes de sécurité renforcés.
+
+### PHASE 9 — OPTIMISATION
+
+Améliorer les performances, l'accessibilité, la fiabilité, l'expérience utilisateur et la documentation.
+
+À chaque phase, produire une version exécutable et testable.
+
+Ne passe pas à la phase suivante tant que les critères d'acceptation essentiels de la phase en cours ne sont pas satisfaits.
+
+## 25. LIVRABLES OBLIGATOIRES
+
+Produire :
+
+1. Le cahier des charges fonctionnel.
+2. La matrice comparative des fonctionnalités.
+3. L'architecture logicielle.
+4. Le modèle de données.
+5. Les schémas des principales interfaces.
+6. Le code source complet.
+7. Les migrations de base de données.
+8. Les fichiers de configuration nécessaires.
+9. Les tests automatisés.
+10. Les scripts de déploiement.
+11. La documentation d'installation.
+12. La documentation utilisateur.
+13. La documentation technique.
+14. La documentation des API.
+15. La procédure de sauvegarde et de restauration.
+16. La matrice des fonctionnalités implémentées.
+17. Le rapport des tests.
+18. La liste des limitations connues.
+19. La liste des dépendances externes.
+20. Une estimation des coûts d'exploitation.
+
+Fournir des instructions permettant de démarrer le projet localement.
+
+Ne pas placer de secrets dans le code source.
+
+Fournir un fichier d'exemple de configuration sans identifiants sensibles.
+
+## 26. CRITÈRES D'ACCEPTATION DU PRODUIT
+
+Le produit ne peut être considéré comme opérationnel que si un utilisateur peut réellement :
+
+* Créer un compte.
+* Créer un projet.
+* Importer une vidéo.
+* Ajouter des éléments interactifs.
+* Créer des questions.
+* Configurer des conditions.
+* Construire un parcours non linéaire.
+* Prévisualiser le résultat.
+* Sauvegarder son travail.
+* Fermer puis rouvrir le projet sans perdre ses modifications.
+* Publier une version interactive.
+* Accéder au contenu publié.
+* Répondre aux questions.
+* Enregistrer les résultats.
+* Consulter les statistiques.
+* Gérer les droits d'accès.
+* Exporter les formats effectivement pris en charge.
+
+Les fonctionnalités doivent être testées sur des cas réels et documentés.
+
+## 27. RÈGLES FONDAMENTALES
+
+Ne développe pas uniquement ce qui est visuellement impressionnant.
+
+Privilégie les fonctionnalités réellement utilisables.
+
+Ne remplace pas un moteur interactif par une succession de pages statiques.
+
+Ne remplace pas un système de sauvegarde par des données temporaires.
+
+Ne simule pas les résultats des tests.
+
+Ne présente pas une intégration comme opérationnelle si elle ne fonctionne pas.
+
+Ne dépends pas exclusivement d'un seul fournisseur d'intelligence artificielle.
+
+Ne construis pas un système impossible à maintenir.
+
+Évite les dépendances propriétaires lorsque des alternatives raisonnables existent, sans sacrifier la qualité.
+
+Respecte les droits d'auteur des contenus importés et des médias générés.
+
+Documente les limites des exports et des standards pris en charge.
+
+Pour toute fonctionnalité complexe, commence par une preuve de faisabilité, puis intègre une implémentation testée.
+
+## 28. PREMIÈRE ACTION À EXÉCUTER
+
+Commence par analyser le projet et produire une proposition d'architecture complète.
+
+Établis une matrice comparative détaillée des fonctions d'Adobe Captivate, H5P, Articulate Storyline et des autres solutions pertinentes.
+
+Pour chaque fonctionnalité, indique :
+
+* Son utilité.
+* Son fonctionnement attendu.
+* Sa priorité.
+* Sa complexité technique.
+* Ses dépendances.
+* Sa méthode de test.
+* Son critère d'acceptation.
+
+Identifie les fonctionnalités qui apporteront un avantage concurrentiel réel.
+
+Propose ensuite un MVP professionnel cohérent, suivi d'une feuille de route permettant d'atteindre progressivement une couverture fonctionnelle plus large.
+
+Ne commence pas par produire des centaines de fichiers de code sans architecture.
+
+Présente d'abord les décisions techniques importantes, puis commence l'implémentation du socle fonctionnel.
+
+Le résultat attendu est une véritable plateforme de création de vidéos interactives, fiable, évolutive, accessible et assistée par intelligence artificielle.
+
+# 3. Les fonctionnalités qui pourraient réellement différencier ton outil
+
+Le prompt couvre un périmètre important. Toutefois, reproduire les fonctions de plusieurs logiciels ne suffit pas à rendre un produit meilleur. Il faut aussi simplifier le travail des créateurs et résoudre les difficultés qu'ils rencontrent.
+
+Je te recommande de miser sur les six innovations suivantes.
+
+### A. Transformer automatiquement une vidéo en formation interactive
+
+L'utilisateur importe une vidéo. L'IA analyse son contenu et propose :
+
+* Un découpage en séquences.
+* Les moments où une interaction serait pertinente.
+* Des questions de compréhension.
+* Des points de contrôle.
+* Des explications supplémentaires.
+* Un quiz final.
+* Des sous-titres.
+* Une structure pédagogique.
+
+Le concepteur peut ensuite accepter, modifier ou supprimer chaque proposition.
+
+**L'avantage :** réduire considérablement le temps nécessaire pour transformer une vidéo classique en formation interactive.
+
+### B. Créer des scénarios complexes sans programmation
+
+Imagine un éditeur visuel dans lequel l'utilisateur peut relier les décisions de l'apprenant.
+
+Par exemple, dans une formation de cybersécurité :
+
+1. Une vidéo présente un courriel suspect.
+2. L'apprenant doit décider s'il faut l'ouvrir, le signaler ou le supprimer.
+3. Chaque décision entraîne une conséquence différente.
+4. La vidéo reprend à un moment adapté.
+5. Le système explique les conséquences du choix.
+6. Le score et les compétences sont mis à jour.
+
+L'ensemble doit pouvoir être créé visuellement, sans écrire de code.
+
+### C. Un éditeur dans lequel l'IA comprend réellement le projet
+
+L'utilisateur pourrait demander :
+
+« Déplace toutes les questions après les séquences auxquelles elles se rapportent. »
+
+Ou :
+
+« Remplace les questions trop faciles par des mises en situation et conserve le seuil de réussite à 80 %. »
+
+L'IA devrait modifier les objets concernés, préserver les autres paramètres et présenter un aperçu des changements.
+
+Elle ne devrait pas reconstruire arbitrairement l'ensemble du projet à chaque demande.
+
+### D. Un seul projet, plusieurs formats de diffusion
+
+Le créateur devrait pouvoir concevoir une expérience, puis produire les versions adaptées aux destinations retenues :
+
+* Lecteur Web interactif.
+* Module de formation pour un LMS compatible.
+* Paquet SCORM.
+* Contenu compatible xAPI lorsque nécessaire.
+* Version vidéo classique.
+* Présentation interactive.
+* Version mobile adaptée.
+
+Il faudra toutefois tester séparément chaque format : ils ne prennent pas tous en charge les mêmes fonctionnalités.
+
+### E. Un contrôle qualité intelligent
+
+Avant la publication, la plateforme devrait rechercher automatiquement :
+
+* Les scènes sans issue.
+* Les interactions inaccessibles.
+* Les questions sans correction.
+* Les variables jamais initialisées.
+* Les liens brisés.
+* Les sous-titres manquants.
+* Les problèmes de contraste.
+* Les erreurs de navigation.
+* Les scènes inutilisées.
+* Les incompatibilités avec le format d'exportation.
+
+L'utilisateur recevrait un rapport avec des recommandations et pourrait corriger les problèmes directement dans l'éditeur.
+
+### F. Une gestion professionnelle des formations en entreprise
+
+Prévoir des fonctions destinées aux organisations :
+
+* Gestion des équipes et des droits.
+* Bibliothèque de modèles institutionnels.
+* Validation des contenus avant publication.
+* Historique des modifications.
+* Suivi des résultats.
+* Rapports exportables.
+* Gestion des versions.
+* Journalisation des opérations importantes.
+* Paramètres de conservation des données.
+
+Ces fonctions sont particulièrement importantes pour les formations réglementaires, la conformité et la sensibilisation à la cybersécurité.
+
+---
+
+# 4. Comment transformer ce prompt en un véritable produit
+
+Je te conseille de ne pas demander à l'agent de développer toutes les fonctionnalités simultanément. Le périmètre est trop vaste pour être réalisé et vérifié correctement en une seule étape.
+
+Voici l'ordre de réalisation que je privilégierais :
+
+| Étape | Objectif                         | Résultat attendu                                                       |
+| ----- | -------------------------------- | ---------------------------------------------------------------------- |
+| 1     | Architecture et spécifications   | Architecture, modèle de données et fonctionnalités priorisées.         |
+| 2     | Éditeur visuel                   | Création de projets, scènes, timeline et gestion des médias.           |
+| 3     | Moteur interactif                | Questions, boutons, événements, variables et embranchements.           |
+| 4     | Lecteur interactif               | Lecture synchronisée, navigation et interactions fonctionnelles.       |
+| 5     | Intelligence artificielle        | Création de scénarios et de questions à partir de textes et de vidéos. |
+| 6     | Publication                      | Diffusion Web et premiers formats d'exportation validés.               |
+| 7     | Évaluations et statistiques      | Scores, progression et rapports.                                       |
+| 8     | Fonctionnalités professionnelles | Collaboration, gestion des accès, sécurité et intégrations avancées.   |
+
+**Le point le plus important :** l'éditeur, le moteur d'interactivité et le lecteur doivent partager un même modèle de projet. C'est ce qui permettra de créer une interaction une seule fois, de la prévisualiser correctement, puis de la publier sans perdre sa logique.
+
+## 5. Pour que je puisse aller plus loin
+
+Envoie-moi maintenant le document ou les captures dont tu souhaites extraire le texte.
+
+Je pourrai alors réunir **le texte extrait et le prompt de développement dans un cahier des charges unique**, en distinguant :
+
+* les exigences présentes dans ton document ;
+* les fonctionnalités supplémentaires nécessaires ;
+* les spécifications techniques ;
+* les critères permettant de vérifier que chaque fonction est réellement opérationnelle.
+
+L'objectif sera d'obtenir un document directement exploitable par un agent IA de développement pour construire progressivement la plateforme, et pas seulement un prototype visuellement convaincant.
